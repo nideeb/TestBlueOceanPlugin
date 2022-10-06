@@ -4,8 +4,6 @@ pipeline {
     stage('Build') {
       steps {
         echo 'hello'
-        retry(count: 3)
-        sh 'sdfghjlk'
       }
     }
 
